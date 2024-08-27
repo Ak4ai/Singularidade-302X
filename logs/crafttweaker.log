@@ -1,0 +1,21 @@
+[22:20:17.650][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Fabric
+[22:20:17.697][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[22:20:26.648][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[22:20:26.659][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[22:20:26.660][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin createtweaker:main
+[22:20:26.660][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin refurbished_furniture:plugin
+[22:20:27.457][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[22:20:27.941][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[22:20:28.391][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[22:20:28.464][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[22:20:28.597][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[22:31:44.431][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[22:31:44.476][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[22:31:44.526][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[22:31:44.541][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[22:31:45.758][INFO][CraftTweaker]: CraftTweaker reload starting!
+[22:31:45.763][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[22:31:45.780][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[22:31:46.295][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [farmersdelight, mods, crafttweaker, expansions]
+[22:31:46.303][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[22:31:46.306][INFO][CraftTweaker]: CraftTweaker reload complete!

@@ -1,0 +1,17 @@
+{
+  "favorites": [],
+  "lookup_history": [],
+  "craft_history": [
+    "minecraft:wooden_axe",
+    "minecraft:cherry_planks",
+    "minecraft:stick",
+    "minecraft:crafting_table"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
