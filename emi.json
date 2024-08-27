@@ -1,6 +1,8 @@
 {
   "favorites": [],
-  "lookup_history": [],
+  "lookup_history": [
+    "item:videoplayer:tv_block"
+  ],
   "craft_history": [
     "minecraft:wooden_axe",
     "minecraft:cherry_planks",
