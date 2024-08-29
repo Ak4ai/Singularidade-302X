@@ -1,260 +1,447 @@
 {
-  "minecraft:clutter/root": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade": {
     "criteria": {
-      "requirement": "2024-08-26 21:53:53 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2024-08-26 21:53:58 -0300"
+      "has_upgrade_base": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
   "betterdungeons:root": {
     "criteria": {
-      "always": "2024-08-26 21:53:58 -0300"
+      "always": "2024-08-28 22:01:00 -0300"
     },
     "done": true
   },
-  "betterdeserttemples:root": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade": {
     "criteria": {
-      "always": "2024-08-26 21:53:58 -0300"
+      "has_smoking_upgrade": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "rpg_series:root": {
+  "spartanweaponry:lance": {
     "criteria": {
-      "always": "2024-08-26 21:53:58 -0300"
+      "has_lance": "2024-08-28 22:05:32 -0300"
     },
     "done": true
   },
-  "beautify:progression/root": {
+  "mcwroofs:recipes/terracotta": {
     "criteria": {
-      "Install": "2024-08-26 21:53:58 -0300"
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/fir": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2024-08-28 22:00:06 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:02 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/stone": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/acacia": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "chaosawakens:root/root": {
+    "criteria": {
+      "root": "2024-08-28 22:00:06 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/jungle": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/stone_bricks": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/mahogany": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "morevillagers:root": {
+    "criteria": {
+      "always": "2024-08-28 22:01:00 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/gutters": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade_from_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/birch_planks": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2024-08-28 22:01:00 -0300"
+    },
+    "done": true
+  },
+  "immersive_aircraft:misc/aircraftery": {
+    "criteria": {
+      "has_item": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/acacia_planks": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/oak": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/dark_oak": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/cobblestone": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/redwood": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/grass": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/concrete": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/dark_oak": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_blasting_upgrade_from_auto_smelting_upgrade": {
+    "criteria": {
+      "has_auto_smelting_upgrade": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-08-28 22:03:49 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/spruce": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/dead": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/spruce_planks": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/warped": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/andesite": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade_from_auto_smelting_upgrade": {
+    "criteria": {
+      "has_auto_smelting_upgrade": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "cataclysm:root": {
+    "criteria": {
+      "custom_test_name": "2024-08-28 22:01:00 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/oak": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/oak_planks": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/warped": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
   "dungeons_arise:wda_root": {
     "criteria": {
-      "WDA": "2024-08-26 21:53:58 -0300"
+      "WDA": "2024-08-28 22:01:00 -0300"
     },
     "done": true
   },
-  "betternether:root": {
+  "mcwroofs:recipes/prismarine": {
     "criteria": {
-      "welcome": "2024-08-26 21:53:59 -0300"
+      "has_planks": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "betterend:root": {
+  "mcwfurnituresbop:recipes/hellbark": {
     "criteria": {
-      "welcome": "2024-08-26 21:53:59 -0300"
+      "has_wood": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_crafting": {
+  "mcwroofs:recipes/bricks": {
     "criteria": {
-      "has_wct": "2024-08-26 21:54:46 -0300"
+      "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_pattern_access_terminal": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_blasting_upgrade": {
     "criteria": {
-      "has_wt": "2024-08-26 21:54:46 -0300"
+      "has_blasting_upgrade": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/ce": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade_from_smelting_upgrade": {
     "criteria": {
-      "has_wpt": "2024-08-26 21:54:47 -0300",
-      "has_wct": "2024-08-26 21:54:46 -0300"
+      "has_smelting_upgrade": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/quantum_bridge_card": {
+  "mcwroofs:recipes/jungle_planks": {
     "criteria": {
-      "has_wit": "2024-08-26 21:54:46 -0300",
-      "has_wpt": "2024-08-26 21:54:46 -0300",
-      "has_wct": "2024-08-26 21:54:46 -0300"
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/magic": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/umbran": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/granite": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/warped_planks": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/palm": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnituresbop:recipes/jacaranda": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
   "create:root": {
     "criteria": {
-      "0": "2024-08-26 21:54:47 -0300"
+      "0": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern_access": {
+  "mcwroofs:recipes/red_nether_bricks": {
     "criteria": {
-      "has_wit": "2024-08-26 21:54:47 -0300"
+      "has_planks": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "naturalist:recipes/food/cooked_egg": {
+  "mcwroofs:recipes/awning": {
     "criteria": {
-      "has_eggs": "2024-08-26 21:54:47 -0300"
+      "has_planks": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_pattern_encoding_terminal": {
+  "mcwroofs:recipes/crimson": {
     "criteria": {
-      "has_wt": "2024-08-26 21:54:47 -0300"
+      "has_planks": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/magnet_card": {
+  "mcwroofs:recipes/thatch": {
     "criteria": {
-      "has_wct": "2024-08-26 21:54:47 -0300"
+      "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern_encoding": {
+  "mcwfurnitures:recipes/acacia": {
     "criteria": {
-      "has_wpt": "2024-08-26 21:54:47 -0300"
+      "has_wood": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/ca": {
+  "mcwroofs:recipes/crimson_planks": {
     "criteria": {
-      "has_wit": "2024-08-26 21:54:47 -0300",
-      "has_wct": "2024-08-26 21:54:47 -0300"
+      "has_planks": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "ae2wtlib:recipes/wireless_universal_terminal/ae": {
+  "mcwroofs:recipes/diorite": {
     "criteria": {
-      "has_wit": "2024-08-26 21:54:47 -0300",
-      "has_wpt": "2024-08-26 21:54:47 -0300"
+      "has_planks": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
+  "mcwroofs:recipes/red_sandstone": {
     "criteria": {
-      "has_bread": "2024-08-26 21:54:47 -0300"
+      "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "farmersdelight:main/root": {
+  "mcwfurnituresbop:recipes/willow": {
     "criteria": {
-      "seeds": "2024-08-26 21:54:47 -0300"
+      "has_wood": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
-  "betternether:recipes/decorations/oak_taburet": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade": {
     "criteria": {
-      "has_oak_slab": "2024-08-26 22:10:41 -0300"
+      "has_upgrade_base": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "another_furniture:recipes/oak_shutter": {
+  "mcwroofs:recipes/dark_oak_planks": {
     "criteria": {
-      "has_slab": "2024-08-26 22:10:41 -0300"
+      "has_planks": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "betternether:recipes/decorations/oak_bar_stool": {
+  "mcwfurnitures:recipes/birch": {
     "criteria": {
-      "has_oak_slab": "2024-08-26 22:10:41 -0300"
+      "has_wood": "2024-08-28 22:00:02 -0300"
     },
     "done": true
   },
-  "twigs:recipes/tables/oak_table": {
+  "mcwroofs:recipes/birch": {
     "criteria": {
-      "has_the_recipe": "2024-08-26 22:10:41 -0300"
+      "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "betternether:recipes/decorations/oak_chair": {
+  "kimetsunoyaiba:demon_slayer": {
     "criteria": {
-      "has_oak_slab": "2024-08-26 22:10:41 -0300"
+      "demon_slayer": "2024-08-28 22:01:00 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/composter": {
+  "kimetsunoyaiba:cruel": {
     "criteria": {
-      "has_wood_slab": "2024-08-26 22:10:41 -0300"
+      "cruel": "2024-08-28 22:01:00 -0300"
     },
     "done": true
   },
-  "supplementaries:recipes/bamboo_spikes": {
+  "mcwroofs:recipes/sandstone": {
     "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
+      "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/workbench": {
+  "mcwroofs:recipes/nether_bricks": {
     "criteria": {
-      "has_slabs": "2024-08-26 22:10:41 -0300"
+      "has_planks": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "supplementaries:recipes/blackboard": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "twigs:recipes/tables/oak_table_slab": {
-    "criteria": {
-      "has_bamboo": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/cage": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/item_shelf": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_wood_slab": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/oak_bench": {
-    "criteria": {
-      "has_slab": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/oak_flower_box": {
-    "criteria": {
-      "has_slab": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/flower_box": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/bellows": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/jar": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/pulley": {
-    "criteria": {
-      "minecraft:wooden_slabs": "2024-08-26 22:10:41 -0300"
-    },
-    "done": true
-  },
-  "DataVersion": 3465
+  "DataVersion": 2586
 }

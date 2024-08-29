@@ -1,21 +1,7 @@
-[22:07:25.375][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Fabric
-[22:07:25.393][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[22:07:32.981][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[22:07:32.994][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[22:07:32.994][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin createtweaker:main
-[22:07:32.995][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin refurbished_furniture:plugin
-[22:07:33.741][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[22:07:34.178][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[22:07:34.616][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[22:07:34.688][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[22:07:34.827][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
-[22:08:37.825][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[22:08:37.845][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[22:08:37.868][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[22:08:37.876][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[22:08:39.277][INFO][CraftTweaker]: CraftTweaker reload starting!
-[22:08:39.283][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[22:08:39.301][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[22:08:39.825][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [farmersdelight, mods, crafttweaker, expansions]
-[22:08:39.833][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[22:08:39.836][INFO][CraftTweaker]: CraftTweaker reload complete!
+[10:45:43.380][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[10:45:46.485][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'appliedenergisticstweaker' at version '1.0.0.15'
+'crafttweaker' at version '7.1.2.527'
+'jeitweaker' at version '1.1.0.49'
+'tconstruct' at version '3.3.4.335'
+[10:45:47.377][CONSTRUCT][CLIENT][INFO] Completed building internal Registries

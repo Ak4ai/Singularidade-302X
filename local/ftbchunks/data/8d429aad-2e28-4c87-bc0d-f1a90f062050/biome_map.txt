@@ -1,5 +1,0 @@
-#6CE terralith:alpine_grove
-#6B9 terralith:cold_shrubland
-#6E0 terralith:scarlet_mountains
-#4E5 minecraft:snowy_plains
-#524 minecraft:snowy_slopes

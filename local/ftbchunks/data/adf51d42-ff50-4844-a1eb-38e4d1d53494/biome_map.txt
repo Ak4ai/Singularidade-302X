@@ -1,6 +1,0 @@
-#556 minecraft:beach
-#4F9 minecraft:dark_forest
-#3DE minecraft:deep_ocean
-#498 minecraft:lush_caves
-#4F1 minecraft:ocean
-#744 terralith:skylands_spring
