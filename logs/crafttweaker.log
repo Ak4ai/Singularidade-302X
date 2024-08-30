@@ -1,9 +1,9 @@
-[21:47:24.245][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[21:47:27.480][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[22:41:59.224][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[22:42:00.881][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'appliedenergisticstweaker' at version '1.0.0.15'
 'crafttweaker' at version '7.1.2.527'
 'jeitweaker' at version '1.1.0.49'
 'tconstruct' at version '3.3.4.335'
-[21:47:28.111][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[21:49:42.617][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[21:49:45.171][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[22:42:04.267][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[22:43:37.901][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[22:43:38.817][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
