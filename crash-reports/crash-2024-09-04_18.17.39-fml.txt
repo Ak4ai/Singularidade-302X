@@ -1,0 +1,318 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 9/4/24 6:17 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:71) [?:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.completeModLoading(ClientModLoader.java:174) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$null$1(Minecraft.java:508) [?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:magnesium.mixins.json:features.options.MixinMinecraftClient,pl:mixin:APP:magnesium.mixins.json:features.gui.MixinMinecraftAccessor,pl:mixin:APP:konkrete.mixin.json:client.MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin,pl:mixin:APP:iceberg.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.mixins.json:ShaderCloseMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:performant.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3997/1904811371.run(Unknown Source) [?:?] {}
+	at net.minecraft.util.Util.func_215077_a(Util.java:320) [?:?] {re:classloading,re:mixin}
+	at net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:504) [?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:magnesium.mixins.json:features.options.MixinMinecraftClient,pl:mixin:APP:magnesium.mixins.json:features.gui.MixinMinecraftAccessor,pl:mixin:APP:konkrete.mixin.json:client.MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin,pl:mixin:APP:iceberg.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.mixins.json:ShaderCloseMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:performant.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$3767/915686941.accept(Unknown Source) [?:?] {}
+	at net.minecraft.client.gui.ResourceLoadProgressGui.func_230430_a_(ResourceLoadProgressGui.java:113) [?:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:dynamic_fps-common.mixins.json:LoadingOverlayMixin,pl:mixin:APP:fancymenu.general.mixin.json:MixinResourceLoadProgressGui,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:481) [?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:immersive_aircraft.mixins.json:GameRendererMixin,pl:mixin:APP:magnesium.mixins.json:core.matrix.MixinGameRenderer,pl:mixin:APP:dynamic_fps.mixins.json:GameRendererMixin,pl:mixin:APP:dynamic_fps-common.mixins.json:GameRendererMixin,pl:mixin:APP:flywheel.mixins.json:StoreProjectionMatrixMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:977) [?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:magnesium.mixins.json:features.options.MixinMinecraftClient,pl:mixin:APP:magnesium.mixins.json:features.gui.MixinMinecraftAccessor,pl:mixin:APP:konkrete.mixin.json:client.MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin,pl:mixin:APP:iceberg.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.mixins.json:ShaderCloseMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:performant.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:magnesium.mixins.json:features.options.MixinMinecraftClient,pl:mixin:APP:magnesium.mixins.json:features.gui.MixinMinecraftAccessor,pl:mixin:APP:konkrete.mixin.json:client.MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin,pl:mixin:APP:iceberg.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.mixins.json:ShaderCloseMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:performant.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {re:computing_frames}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) [forge-1.16.5-36.2.42.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$494/880934808.call(Unknown Source) [forge-1.16.5-36.2.42.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_51] {}
+-- MOD littleframes --
+Details:
+	Mod File: LittleFrames_FORGE_v1.1.1_mc1.19.2.jar
+	Failure message: LittleFrames has class loading errors
+		java.lang.UnsupportedClassVersionError: team/creative/littleframes/LittleFrames has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	Mod Version: 1.1.1
+	Mod Issue URL: https://github.com/CreativeMD/LittleFrames/issues
+	Exception message: java.lang.UnsupportedClassVersionError: team/creative/littleframes/LittleFrames has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Stacktrace:
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_51] {}
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760) ~[?:1.8.0_51] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:138) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_51] {}
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_51] {}
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:47) ~[?:36.2] {re:classloading}
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source) ~[?:?] {}
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[?:36.2] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:288) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:267) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader$$Lambda$3183/2102224373.apply(Unknown Source) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51] {}
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1683) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:269) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$11(ModLoader.java:169) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader$$Lambda$3180/871582126.apply(Unknown Source) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51] {}
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:171) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$1(ClientModLoader.java:89) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3043/715950807.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3044/1783242896.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:89) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:437) [?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:magnesium.mixins.json:features.options.MixinMinecraftClient,pl:mixin:APP:magnesium.mixins.json:features.gui.MixinMinecraftAccessor,pl:mixin:APP:konkrete.mixin.json:client.MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin,pl:mixin:APP:iceberg.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.mixins.json:ShaderCloseMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:performant.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:149) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {re:computing_frames}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) [forge-1.16.5-36.2.42.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$494/880934808.call(Unknown Source) [forge-1.16.5-36.2.42.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+
+
+-- MOD creativecore --
+Details:
+	Mod File: CreativeCore_v2.5.0_mc1.18.1.jar
+	Failure message: CreativeCore has class loading errors
+		java.lang.UnsupportedClassVersionError: team/creative/creativecore/CreativeCore has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	Mod Version: 2.5.0
+	Mod Issue URL: https://github.com/CreativeMD/CreativeCore/issues
+	Exception message: java.lang.UnsupportedClassVersionError: team/creative/creativecore/CreativeCore has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+Stacktrace:
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_51] {}
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760) ~[?:1.8.0_51] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:138) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_51] {}
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_51] {}
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:47) ~[?:36.2] {re:classloading}
+	at sun.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source) ~[?:?] {}
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[?:36.2] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:288) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:267) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader$$Lambda$3183/2102224373.apply(Unknown Source) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51] {}
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1683) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:269) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$11(ModLoader.java:169) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader$$Lambda$3180/871582126.apply(Unknown Source) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_51] {}
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:171) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$begin$1(ClientModLoader.java:89) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3043/715950807.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3044/1783242896.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.client.ClientModLoader.begin(ClientModLoader.java:89) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:437) [?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:magnesium.mixins.json:features.options.MixinMinecraftClient,pl:mixin:APP:magnesium.mixins.json:features.gui.MixinMinecraftAccessor,pl:mixin:APP:konkrete.mixin.json:client.MixinMinecraft,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin,pl:mixin:APP:iceberg.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.mixins.json:ShaderCloseMixin,pl:mixin:APP:fancymenu.general.mixin.json:IMixinMinecraft,pl:mixin:APP:fancymenu.general.mixin.json:MixinMinecraft,pl:mixin:APP:performant.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:149) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {re:computing_frames}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) [forge-1.16.5-36.2.42.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$494/880934808.call(Unknown Source) [forge-1.16.5-36.2.42.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1792810000 bytes (1709 MB) / 2552758272 bytes (2434 MB) up to 5607784448 bytes (5348 MB)
+	CPUs: 16
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx6016m -Xms256m
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.42.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.42.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.42
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+		kotlinforforge@1.17.0
+	Mod List: 
+		hexerei-0.1.4.jar                                 |Hexerei                       |hexerei                       |0.1.4               |NONE      |Manifest: NOSIGNATURE
+		create-stuff-additions1.16.5_v1.1.6.jar           |Create Stuff Additions        |create_stuff_additions        |1.1.6               |NONE      |Manifest: NOSIGNATURE
+		BetterDungeons-1.16.4-1.2.1.jar                   |YUNG's Better Dungeons        |betterdungeons                |1.16.4-1.2.1        |NONE      |Manifest: NOSIGNATURE
+		ftb-essentials-1605.1.5-build.32.jar              |FTB Essentials                |ftbessentials                 |1605.1.5-build.32   |NONE      |Manifest: NOSIGNATURE
+		DungeonsArtifactsV.0.1.3.jar                      |Dungeons & Artifacts          |dungeonsartifacts             |0.1.3               |NONE      |Manifest: NOSIGNATURE
+		Philips ruins 1.16.5-2.8.jar                      |Philips ruins1.16.5           |philips_ruins1_16_5           |2.8                 |NONE      |Manifest: NOSIGNATURE
+		entitycollisionfpsfix-1.16-1.0.1.jar              |Entity Collision FPS Fix      |entitycollisionfpsfix         |1.0.1               |NONE      |Manifest: NOSIGNATURE
+		immersive_aircraft-0.5.2+1.16.5-forge.jar         |Immersive Aircraft            |immersive_aircraft            |0.5.2+1.16.5        |NONE      |Manifest: NOSIGNATURE
+		InsaneLib-1.4.2-mc1.16.5.jar                      |InsaneLib                     |insanelib                     |1.4.2               |NONE      |Manifest: NOSIGNATURE
+		Neat 1.7-27.jar                                   |Neat                          |neat                          |1.7-27              |NONE      |Manifest: NOSIGNATURE
+		BetterCaves-Forge-1.16.4-1.1.2.jar                |YUNG's Better Caves           |bettercaves                   |1.16.4-1.1.2        |NONE      |Manifest: NOSIGNATURE
+		Sorcerium 1.1.3 (1.16.5).jar                      |Sorcerium                     |sorcerium                     |1.1.3               |NONE      |Manifest: NOSIGNATURE
+		CTM-MC1.16.1-1.1.2.6.jar                          |ConnectedTexturesMod          |ctm                           |MC1.16.1-1.1.2.6    |NONE      |Manifest: NOSIGNATURE
+		Prism-1.16.5-1.0.1.jar                            |Prism                         |prism                         |1.0.1               |NONE      |Manifest: NOSIGNATURE
+		Placebo-1.16.5-4.7.1.jar                          |Placebo                       |placebo                       |4.7.1               |NONE      |Manifest: NOSIGNATURE
+		citadel-1.8.1-1.16.5.jar                          |Citadel                       |citadel                       |1.8.1               |NONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.12.1.jar                              |Alex's Mobs                   |alexsmobs                     |1.12.1              |NONE      |Manifest: NOSIGNATURE
+		YungsApi-1.16.4-Forge-13.jar                      |YUNG's API                    |yungsapi                      |1.16.4-Forge-13     |NONE      |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.16.5-3.15.20.755.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |1.16.5-3.15.20.755  |NONE      |Manifest: NOSIGNATURE
+		magnesium-1.5.jar                                 |Magnesium                     |magnesium                     |1.5                 |NONE      |Manifest: NOSIGNATURE
+		buildinggadgets-1.16.5-3.8.4-build.25+mc1.16.5.jar|Building Gadgets              |buildinggadgets               |3.8.4-build.25+mc1.1|NONE      |Manifest: NOSIGNATURE
+		takesapillage-1.0.3-1.16.5.jar                    |It Takes A Pillage            |takesapillage                 |1.0.3               |NONE      |Manifest: NOSIGNATURE
+		ProgressiveBosses-3.4.3-mc1.16.5.jar              |Progressive Bosses            |progressivebosses             |3.4.3               |NONE      |Manifest: NOSIGNATURE
+		IronAgeFurniture-1.16.3-1.16.5-0.2.0.15.jar       |Iron Age Furniture            |ironagefurniture              |1.16.5-0.2.0.15     |NONE      |Manifest: NOSIGNATURE
+		JustEnoughResources-1.16.5-0.12.1.128.jar         |Just Enough Resources         |jeresources                   |0.12.1.128          |NONE      |Manifest: NOSIGNATURE
+		twilightforest-1.16.5-4.0.870-universal.jar       |The Twilight Forest           |twilightforest                |NONE                |NONE      |Manifest: NOSIGNATURE
+		supplementaries-1.16.5-0.18.5.jar                 |Supplementaries               |supplementaries               |0.18.3              |NONE      |Manifest: NOSIGNATURE
+		konkrete_forge_1.6.1_MC_1.16.2-1.16.5.jar         |Konkrete                      |konkrete                      |1.6.1               |NONE      |Manifest: NOSIGNATURE
+		structure_gel-1.16.5-1.7.8.jar                    |Structure Gel API             |structure_gel                 |1.7.8               |NONE      |Manifest: NOSIGNATURE
+		corpse-1.16.5-1.0.6.jar                           |Corpse                        |corpse                        |1.16.5-1.0.6        |NONE      |Manifest: NOSIGNATURE
+		DustrialDecor-1.3.1.jar                           |'Dustrial Decor               |dustrial_decor                |1.2.8               |NONE      |Manifest: NOSIGNATURE
+		LittleFrames_FORGE_v1.1.1_mc1.19.2.jar            |LittleFrames                  |littleframes                  |1.1.1               |NONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-1.16.5-13.1.0.477-universal.jar     |Biomes O' Plenty              |biomesoplenty                 |1.16.5-13.1.0.477   |NONE      |Manifest: NOSIGNATURE
+		ironfurnaces-1.16.5-2.7.7.jar                     |Iron Furnaces                 |ironfurnaces                  |2.7.7               |NONE      |Manifest: NOSIGNATURE
+		dungeons_plus-1.16.5-1.1.5.jar                    |Dungeons Plus                 |dungeons_plus                 |1.1.5               |NONE      |Manifest: NOSIGNATURE
+		Chunky-1.2.123.jar                                |Chunky                        |chunky                        |1.2.123             |NONE      |Manifest: NOSIGNATURE
+		mcw-fences-1.1.2-mc1.16.5forge.jar                |Macaw's Fences and Walls      |mcwfences                     |1.1.2               |NONE      |Manifest: NOSIGNATURE
+		YungsBridges-Forge-1.16.4-1.0.1.jar               |YUNG's Bridges                |yungsbridges                  |1.16.4-1.0.1        |NONE      |Manifest: NOSIGNATURE
+		born_in_chaos_1.16_1.3.jar                        |Born in Chaos                 |born_in_chaos_v1              |1.0.0               |NONE      |Manifest: NOSIGNATURE
+		dungeons_enhanced-1.16.5-1.8.2.jar                |Dungeons Enhanced             |dungeons_enhanced             |1.8.2               |NONE      |Manifest: NOSIGNATURE
+		CNB-1.16.3_5-1.2.11.jar                           |Creatures and Beasts          |cnb                           |1.2.11              |NONE      |Manifest: NOSIGNATURE
+		L_Enders Cataclysm-0.48 Changed Theme -1.16.5.jar |Cataclysm Mod                 |cataclysm                     |1.0                 |NONE      |Manifest: NOSIGNATURE
+		curios-forge-1.16.5-4.1.0.0.jar                   |Curios API                    |curios                        |1.16.5-4.1.0.0      |NONE      |Manifest: NOSIGNATURE
+		nocube's_sea_dwellers_2.0.0_forge_1.16.5.jar      |NoCube's Sea Dwellers         |seadwellers                   |2.0.0               |NONE      |Manifest: NOSIGNATURE
+		YungsExtras-Forge-1.16.4-1.0.jar                  |YUNG's Extras                 |yungsextras                   |Forge-1.16.4-1.0    |NONE      |Manifest: NOSIGNATURE
+		elevatorid-1.16.5-1.7.13.jar                      |Elevator Mod                  |elevatorid                    |1.16.5-1.7.13       |NONE      |Manifest: NOSIGNATURE
+		ftb-ultimine-forge-1605.3.1-build.45.jar          |FTB Ultimine                  |ftbultimine                   |1605.3.1-build.45   |NONE      |Manifest: NOSIGNATURE
+		BetterStrongholds-1.16.4-1.2.1.jar                |YUNG's Better Strongholds     |betterstrongholds             |1.16.4-1.2.1        |NONE      |Manifest: NOSIGNATURE
+		SpartanWeaponry-1.16.5-2.2.2.jar                  |Spartan Weaponry              |spartanweaponry               |2.2.2               |NONE      |Manifest: NOSIGNATURE
+		mcw-roofs-2.3.1-mc1.16.5forge.jar                 |Macaw's Roofs                 |mcwroofs                      |2.3.1               |NONE      |Manifest: NOSIGNATURE
+		cfm-7.0.0pre22-1.16.3.jar                         |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre22         |NONE      |Manifest: NOSIGNATURE
+		architectury-1.32.68.jar                          |Architectury                  |architectury                  |1.32.68             |NONE      |Manifest: NOSIGNATURE
+		curiouselytra-forge-1.16.5-4.0.2.5.jar            |Curious Elytra                |curiouselytra                 |1.16.5-4.0.2.5      |NONE      |Manifest: NOSIGNATURE
+		mcw-furniture-3.3.0-mc1.16.5forge.jar             |Macaw's Furniture             |mcwfurnitures                 |3.3.0               |NONE      |Manifest: NOSIGNATURE
+		cloth-config-4.17.101-forge.jar                   |Cloth Config v4 API           |cloth-config                  |4.17.101            |NONE      |Manifest: NOSIGNATURE
+		dynamic-fps-3.4.3+minecraft-1.16.5-forge.jar      |Dynamic FPS                   |dynamic_fps                   |3.4.3               |NONE      |Manifest: NOSIGNATURE
+		FastLeafDecay-v25.2.jar                           |FastLeafDecay                 |fastleafdecay                 |v25.2               |NONE      |Manifest: NOSIGNATURE
+		BetterMineshafts-Forge-1.16.4-2.0.4.jar           |YUNG's Better Mineshafts      |bettermineshafts              |1.16.4-2.0.4        |NONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.96.jar                  |GeckoLib                      |geckolib3                     |3.0.96              |NONE      |Manifest: NOSIGNATURE
+		bmvsb-1.0.2.jar                                   |BMVSB                         |bmvsb                         |1.0.2               |NONE      |Manifest: NOSIGNATURE
+		puffish_skills-0.5.0-1.16.5-forge.jar             |Pufferfish's Skills           |puffish_skills                |0.5.0               |NONE      |Manifest: NOSIGNATURE
+		ae2wtlib-0.3.3-1.16.5.jar                         |AE2 Wireless Terminals        |ae2wtlib                      |0.3.3-1.16.5        |NONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-1605.3.4-build.90.jar           |FTB Library                   |ftblibrary                    |1605.3.4-build.90   |NONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-1605.2.3-build.40.jar             |FTB Teams                     |ftbteams                      |1605.2.3-build.40   |NONE      |Manifest: NOSIGNATURE
+		jei-1.16.5-7.8.0.1009.jar                         |Just Enough Items             |jei                           |7.8.0.1009          |NONE      |Manifest: NOSIGNATURE
+		item-filters-forge-1605.2.5-build.9.jar           |Item Filters                  |itemfilters                   |1605.2.5-build.9    |NONE      |Manifest: NOSIGNATURE
+		The_Graveyard_2.1_(FORGE)_for_1.16.4-1.16.5.jar   |The Graveyard (FORGE)         |graveyard                     |2.1                 |NONE      |Manifest: NOSIGNATURE
+		chaosawakens-1.16.5-0.12.1.0.jar                  |Chaos Awakens                 |chaosawakens                  |0.12.1.0            |NONE      |Manifest: NOSIGNATURE
+		caelus-forge-1.16.5-2.1.3.2.jar                   |Caelus API                    |caelus                        |1.16.5-2.1.3.2      |NONE      |Manifest: NOSIGNATURE
+		obscure_api-11.jar                                |Obscure API                   |obscure_api                   |11                  |NONE      |Manifest: NOSIGNATURE
+		Waystones_1.16.5-7.6.4.jar                        |Waystones                     |waystones                     |7.6.4               |NONE      |Manifest: NOSIGNATURE
+		BetterPortals-1.16.4-0.3.9.jar                    |YUNG's Better Portals         |betterportals                 |1.16.4-0.3.9        |NONE      |Manifest: NOSIGNATURE
+		Clumps-6.0.0.28.jar                               |Clumps                        |clumps                        |6.0.0.28            |NONE      |Manifest: NOSIGNATURE
+		journeymap-1.16.5-5.8.6.jar                       |Journeymap                    |journeymap                    |5.8.6               |NONE      |Manifest: NOSIGNATURE
+		appliedenergistics2-8.4.7.jar                     |Applied Energistics 2         |appliedenergistics2           |8.4.7               |NONE      |Manifest: 95:58:cc:83:9d:a8:fa:4f:e9:f3:54:90:66:61:c8:ae:9c:08:88:11:52:52:df:2d:28:5f:05:d8:28:57:0f:98
+		NaturesCompass-1.16.5-1.9.1-forge.jar             |Nature's Compass              |naturescompass                |1.16.5-1.9.1-forge  |NONE      |Manifest: NOSIGNATURE
+		decorative_blocks-1.16.4-1.7.2.jar                |Decorative Blocks             |decorative_blocks             |1.7.2               |NONE      |Manifest: NOSIGNATURE
+		OPF-1.16.x-v2.jar                                 |Online Picture Frame 2        |opf                           |0                   |NONE      |Manifest: NOSIGNATURE
+		mcjtylib-1.16-5.1.8.jar                           |McJtyLib                      |mcjtylib                      |1.16-5.1.8          |NONE      |Manifest: NOSIGNATURE
+		rftoolsbase-1.16-2.1.5.jar                        |RFToolsBase                   |rftoolsbase                   |1.16-2.1.5          |NONE      |Manifest: NOSIGNATURE
+		xnet-1.16-3.0.17.jar                              |XNet                          |xnet                          |1.16-3.0.17         |NONE      |Manifest: NOSIGNATURE
+		magicvibedecorations-HALLOWEEN 1.0.1 1.16.5 forge.|Magic Vibe Decorations        |magic_vibe_decorations        |1.0.1               |NONE      |Manifest: NOSIGNATURE
+		iceandfire-2.1.12-1.16.5-patch-1.jar              |Ice and Fire                  |iceandfire                    |2.1.12-1.16.5-patch-|NONE      |Manifest: NOSIGNATURE
+		JEITweaker-1.16.5-1.1.0.49.jar                    |JEI Tweaker                   |jeitweaker                    |1.1.0.49            |NONE      |Manifest: NOSIGNATURE
+		CraftTweaker-1.16.5-7.1.2.527.jar                 |CraftTweaker                  |crafttweaker                  |7.1.2.527           |NONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.42-universal.jar                |Forge                         |forge                         |36.2.42             |NONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		selene-1.16.5-1.9.0.jar                           |Selene                        |selene                        |1.16.5-1.0          |NONE      |Manifest: NOSIGNATURE
+		DungeonsArise-1.16.5-2.1.49-beta.jar              |When Dungeons Arise           |dungeons_arise                |2.1.49              |NONE      |Manifest: NOSIGNATURE
+		CraftingTweaks_1.16.5-12.2.1.jar                  |Crafting Tweaks               |craftingtweaks                |12.2.1              |NONE      |Manifest: NOSIGNATURE
+		ZeroCore2-1.16.5-2.1.39.jar                       |Zero CORE 2                   |zerocore                      |1.16.5-2.1.39       |NONE      |Manifest: NOSIGNATURE
+		ExtremeReactors2-1.16.5-2.0.71.jar                |Extreme Reactors              |bigreactors                   |1.16.5-2.0.71       |NONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.42-client.jar                   |Minecraft                     |minecraft                     |1.16.5              |NONE      |Manifest: NOSIGNATURE
+		mdm-1.16.5-1.1.2.jar                              |ModernDecorMod                |mdm                           |1.1.2               |NONE      |Manifest: NOSIGNATURE
+		TConstruct-1.16.5-3.3.4.335.jar                   |Tinkers' Construct            |tconstruct                    |3.3.4.335           |NONE      |Manifest: NOSIGNATURE
+		smoothchunk1.16.5-2.0.jar                         |Smoothchunk mod               |smoothchunk                   |2.0                 |NONE      |Manifest: NOSIGNATURE
+		MouseTweaks-2.14-mc1.16.2.jar                     |Mouse Tweaks                  |mousetweaks                   |2.14                |NONE      |Manifest: NOSIGNATURE
+		ftb-quests-forge-1605.3.7-build.165.jar           |FTB Quests                    |ftbquests                     |1605.3.7-build.165  |NONE      |Manifest: NOSIGNATURE
+		CreativeCore_v2.5.0_mc1.18.1.jar                  |CreativeCore                  |creativecore                  |2.5.0               |NONE      |Manifest: NOSIGNATURE
+		betterfpsdist-1.2.jar                             |betterfpsdist mod             |betterfpsdist                 |1.2                 |NONE      |Manifest: NOSIGNATURE
+		rftoolsbuilder-1.16-3.1.11.jar                    |RFToolsBuilder                |rftoolsbuilder                |1.16-3.1.11         |NONE      |Manifest: NOSIGNATURE
+		Iceberg-1.16.5-1.0.45.jar                         |Iceberg                       |iceberg                       |1.0.45              |NONE      |Manifest: NOSIGNATURE
+		flywheel-1.16-0.2.5.jar                           |Flywheel                      |flywheel                      |1.16-0.2.5          |NONE      |Manifest: NOSIGNATURE
+		create-mc1.16.5_v0.3.2g.jar                       |Create                        |create                        |v0.3.2g             |NONE      |Manifest: NOSIGNATURE
+		createdeco-1.1.2-1.16.5.jar                       |Create Deco                   |createdeco                    |1.1.2-1.16.5        |NONE      |Manifest: NOSIGNATURE
+		Mantle-1.16.5-1.6.157.jar                         |Mantle                        |mantle                        |1.6.157             |NONE      |Manifest: NOSIGNATURE
+		MorePlayerModels-1.16.5.20220731.jar              |More Player Models            |moreplayermodels              |1.16.5.20220731     |NONE      |Manifest: NOSIGNATURE
+		FastWorkbench-1.16.5-4.6.2.jar                    |Fast Workbench                |fastbench                     |4.6.2               |NONE      |Manifest: NOSIGNATURE
+		polymorph-forge-1.16.5-0.41.jar                   |Polymorph                     |polymorph                     |1.16.5-0.41         |NONE      |Manifest: NOSIGNATURE
+		FluxNetworks-1.16.5-6.2.1.14.jar                  |Flux Networks                 |fluxnetworks                  |6.2.1.14            |NONE      |Manifest: NOSIGNATURE
+		performant-1.16.2-5-4.1m.jar                      |Performant                    |performant                    |3.73m               |NONE      |Manifest: NOSIGNATURE
+		Medieval Decoration v.1.0 1.16.jar                |PlayTics Deco                 |medieval_deco                 |1.0                 |NONE      |Manifest: NOSIGNATURE
+		structurize-1.16.5-1.0.418-ALPHA.jar              |Structurize                   |structurize                   |1.16.5-1.0.418-ALPHA|NONE      |Manifest: NOSIGNATURE
+		swiaf-1.16.5-1.1.2.jar                            |Spartan Weaponry: Ice and Fire|swiaf                         |1.16.5-1.1.2        |NONE      |Manifest: NOSIGNATURE
+		fancymenu_forge_2.14.9_MC_1.16.2-1.16.5.jar       |FancyMenu                     |fancymenu                     |2.14.9              |NONE      |Manifest: NOSIGNATURE
+		AppliedEnergisticsTweaker-1.0.0.15.jar            |Applied Energistics Tweaker   |appliedenergisticstweaker     |1.0.0.15            |NONE      |Manifest: NOSIGNATURE
+		minecolonies-1.16.5-1.0.978-RELEASE.jar           |MineColonies                  |minecolonies                  |1.16.5-1.0.978-RELEA|NONE      |Manifest: NOSIGNATURE
+		FastFurnace-1.16.5-4.5.0.jar                      |FastFurnace                   |fastfurnace                   |4.5.0               |NONE      |Manifest: NOSIGNATURE
+		Chisel-MC1.16.5-2.0.1-alpha.4.jar                 |Chisel                        |chisel                        |MC1.16.5-2.0.1-alpha|NONE      |Manifest: NOSIGNATURE
+		apexcore-1.16.5-1.10.0.jar                        |ApexCore                      |apexcore                      |1.10.0              |NONE      |Manifest: NOSIGNATURE
+		fantasyfurniture-1.16.5-2.0.2.jar                 |Fantasy's Furniture           |fantasyfurniture              |2.0.2               |NONE      |Manifest: NOSIGNATURE
+		valhelsia_core-16.0.15.jar                        |Valhelsia Core                |valhelsia_core                |16.0.15             |NONE      |Manifest: NOSIGNATURE
+		valhelsia_structures-1.16.5-0.1.6.jar             |Valhelsia Structures          |valhelsia_structures          |1.16.5-0.1.6        |NONE      |Manifest: NOSIGNATURE
+		createaddition-1.16.5-20220129a.jar               |Create Crafts & Additions     |createaddition                |1.16.5-20220129a    |NONE      |Manifest: NOSIGNATURE
