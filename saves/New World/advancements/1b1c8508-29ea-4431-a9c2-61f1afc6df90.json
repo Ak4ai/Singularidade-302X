@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile_block": {
+    "criteria": {
+      "has_item": "2024-09-03 00:06:54 -0300"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade": {
     "criteria": {
       "has_smoking_upgrade": "2024-08-28 22:00:03 -0300"
@@ -23,15 +29,21 @@
     },
     "done": true
   },
+  "obscure_api:recipes/obscure_book": {
+    "criteria": {
+      "has_item": "2024-09-03 00:04:17 -0300"
+    },
+    "done": true
+  },
   "mcwroofs:recipes/terracotta": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "mcwfurnituresbop:recipes/fir": {
+  "takesapillage:root": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:04 -0300"
+      "always": "2024-09-03 00:04:58 -0300"
     },
     "done": true
   },
@@ -59,12 +71,6 @@
     },
     "done": true
   },
-  "chaosawakens:root/root": {
-    "criteria": {
-      "root": "2024-08-28 22:00:06 -0300"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/jungle": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:03 -0300"
@@ -77,15 +83,15 @@
     },
     "done": true
   },
-  "mcwfurnituresbop:recipes/mahogany": {
+  "chaosawakens:root/root": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:04 -0300"
+      "root": "2024-08-28 22:00:06 -0300"
     },
     "done": true
   },
-  "morevillagers:root": {
+  "sorcerium:lvl_achievement": {
     "criteria": {
-      "always": "2024-08-28 22:01:00 -0300"
+      "lvl_achievement": "2024-09-03 00:04:58 -0300"
     },
     "done": true
   },
@@ -107,21 +113,9 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/root": {
-    "criteria": {
-      "tick": "2024-08-28 22:01:00 -0300"
-    },
-    "done": true
-  },
   "immersive_aircraft:misc/aircraftery": {
     "criteria": {
       "has_item": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnituresbop:recipes/cherry": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
@@ -152,12 +146,6 @@
   "mcwfurnitures:recipes/jungle": {
     "criteria": {
       "has_wood": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnituresbop:recipes/redwood": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
@@ -197,15 +185,15 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/spruce": {
+  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
+      "has_item": "2024-09-03 00:06:54 -0300"
     },
     "done": true
   },
-  "mcwfurnituresbop:recipes/dead": {
+  "mcwroofs:recipes/spruce": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
+      "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
@@ -230,12 +218,6 @@
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade_from_auto_smelting_upgrade": {
     "criteria": {
       "has_auto_smelting_upgrade": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "cataclysm:root": {
-    "criteria": {
-      "custom_test_name": "2024-08-28 22:01:00 -0300"
     },
     "done": true
   },
@@ -269,12 +251,6 @@
     },
     "done": true
   },
-  "mcwfurnituresbop:recipes/hellbark": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/bricks": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:03 -0300"
@@ -299,15 +275,9 @@
     },
     "done": true
   },
-  "mcwfurnituresbop:recipes/magic": {
+  "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnituresbop:recipes/umbran": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:03 -0300"
+      "has_bone": "2024-09-03 00:06:54 -0300"
     },
     "done": true
   },
@@ -320,18 +290,6 @@
   "mcwroofs:recipes/warped_planks": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnituresbop:recipes/palm": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnituresbop:recipes/jacaranda": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
@@ -353,15 +311,15 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/crimson": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/thatch": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:03 -0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/crimson": {
+    "criteria": {
+      "has_planks": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
@@ -377,21 +335,15 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/diorite": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/red_sandstone": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
-  "mcwfurnituresbop:recipes/willow": {
+  "mcwroofs:recipes/diorite": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:04 -0300"
+      "has_planks": "2024-08-28 22:00:04 -0300"
     },
     "done": true
   },
@@ -419,18 +371,6 @@
     },
     "done": true
   },
-  "kimetsunoyaiba:demon_slayer": {
-    "criteria": {
-      "demon_slayer": "2024-08-28 22:01:00 -0300"
-    },
-    "done": true
-  },
-  "kimetsunoyaiba:cruel": {
-    "criteria": {
-      "cruel": "2024-08-28 22:01:00 -0300"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/sandstone": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:03 -0300"
@@ -440,6 +380,12 @@
   "mcwroofs:recipes/nether_bricks": {
     "criteria": {
       "has_planks": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/smelting/glass_pane_from_horizontal_framed_glass_pane": {
+    "criteria": {
+      "has_item": "2024-09-03 00:05:58 -0300"
     },
     "done": true
   },
