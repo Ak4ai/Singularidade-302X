@@ -1,0 +1,13 @@
+#35F cavebiomeapi:caves
+#4F9 minecraft:dark_forest
+#3B7 twilightforest:dense_mushroom_forest
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#010 minecraft:forest
+#310 twilightforest:forest
+#1C1 cavesandcliffs:lush_caves
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#452 minecraft:wooded_hills

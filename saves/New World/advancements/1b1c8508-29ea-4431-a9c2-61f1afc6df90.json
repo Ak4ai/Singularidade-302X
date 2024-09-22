@@ -1,295 +1,7 @@
 {
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
   "betterdungeons:root": {
     "criteria": {
       "always": "2024-08-28 22:01:00 -0300"
-    },
-    "done": true
-  },
-  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile_block": {
-    "criteria": {
-      "has_item": "2024-09-03 00:06:54 -0300"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade": {
-    "criteria": {
-      "has_smoking_upgrade": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "spartanweaponry:lance": {
-    "criteria": {
-      "has_lance": "2024-08-28 22:05:32 -0300"
-    },
-    "done": true
-  },
-  "obscure_api:recipes/obscure_book": {
-    "criteria": {
-      "has_item": "2024-09-03 00:04:17 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/terracotta": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "takesapillage:root": {
-    "criteria": {
-      "always": "2024-09-03 00:04:58 -0300"
-    },
-    "done": true
-  },
-  "tconstruct:tools/materials_and_you": {
-    "criteria": {
-      "crafted_book": "2024-08-28 22:00:06 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/crimson": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:02 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/stone": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/acacia": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/jungle": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/stone_bricks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "chaosawakens:root/root": {
-    "criteria": {
-      "root": "2024-08-28 22:00:06 -0300"
-    },
-    "done": true
-  },
-  "sorcerium:lvl_achievement": {
-    "criteria": {
-      "lvl_achievement": "2024-09-03 00:04:58 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/gutters": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade_from_smelting_upgrade": {
-    "criteria": {
-      "has_smelting_upgrade": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/birch_planks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "immersive_aircraft:misc/aircraftery": {
-    "criteria": {
-      "has_item": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/acacia_planks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/oak": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/dark_oak": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/cobblestone": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/jungle": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/grass": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/concrete": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/dark_oak": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_blasting_upgrade_from_auto_smelting_upgrade": {
-    "criteria": {
-      "has_auto_smelting_upgrade": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2024-08-28 22:03:49 -0300"
-    },
-    "done": true
-  },
-  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile": {
-    "criteria": {
-      "has_item": "2024-09-03 00:06:54 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/spruce": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/spruce_planks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/warped": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/andesite": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade_from_auto_smelting_upgrade": {
-    "criteria": {
-      "has_auto_smelting_upgrade": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/oak": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/oak_planks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/warped": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2024-08-28 22:01:00 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/prismarine": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/bricks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_blasting_upgrade": {
-    "criteria": {
-      "has_blasting_upgrade": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade_from_smelting_upgrade": {
-    "criteria": {
-      "has_smelting_upgrade": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/jungle_planks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2024-09-03 00:06:54 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/granite": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/warped_planks": {
-    "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
@@ -299,27 +11,45 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/red_nether_bricks": {
+  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile_block": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
+      "has_item": "2024-09-03 00:06:54 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/awning": {
+  "iceandfire:iceandfire/root": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
+      "tick": "2024-09-22 04:12:57 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/thatch": {
+  "cataclysm:root": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
+      "custom_test_name": "2024-09-22 04:12:57 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/crimson": {
+  "mcwfurnitures:recipes/dark_oak": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
+      "has_wood": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "obscure_api:recipes/obscure_book": {
+    "criteria": {
+      "has_item": "2024-09-03 00:04:17 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/oak": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:05 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-08-28 22:00:03 -0300"
     },
     "done": true
   },
@@ -329,33 +59,51 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/crimson_planks": {
+  "mcwfurnitures:recipes/warped": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
+      "has_wood": "2024-08-28 22:00:05 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/red_sandstone": {
+  "tconstruct:tools/materials_and_you": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
+      "crafted_book": "2024-08-28 22:00:06 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/diorite": {
+  "dungeons_arise:wda_root": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:04 -0300"
+      "WDA": "2024-08-28 22:01:00 -0300"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade": {
+  "mcwfurnitures:recipes/crimson": {
     "criteria": {
-      "has_upgrade_base": "2024-08-28 22:00:03 -0300"
+      "has_wood": "2024-08-28 22:00:02 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/dark_oak_planks": {
+  "mcwfurnitures:recipes/spruce": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
+      "has_wood": "2024-08-28 22:00:04 -0300"
+    },
+    "done": true
+  },
+  "chaosawakens:root/root": {
+    "criteria": {
+      "root": "2024-08-28 22:00:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-08-28 22:03:49 -0300"
+    },
+    "done": true
+  },
+  "sorcerium:lvl_achievement": {
+    "criteria": {
+      "lvl_achievement": "2024-09-03 00:04:58 -0300"
     },
     "done": true
   },
@@ -365,23 +113,29 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/birch": {
+  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
+      "has_item": "2024-09-03 00:06:54 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/sandstone": {
+  "occultism:occultism/root": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:03 -0300"
+      "occultism_present": "2024-09-22 04:12:57 -0300"
     },
     "done": true
   },
-  "mcwroofs:recipes/nether_bricks": {
+  "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "has_planks": "2024-08-28 22:00:05 -0300"
+      "has_bone": "2024-09-03 00:06:54 -0300"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga_hills": "2024-09-22 04:12:44 -0300"
+    },
+    "done": false
   },
   "create:recipes/decorations/smelting/glass_pane_from_horizontal_framed_glass_pane": {
     "criteria": {
