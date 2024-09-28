@@ -18,12 +18,12 @@ fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-mouseSensitivity:0.5
+mouseSensitivity:0.35563379526138306
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.0
-renderDistance:7
+gamma:1.0
+renderDistance:15
 entityDistanceScaling:1.0
 guiScale:2
 particles:1
@@ -33,7 +33,7 @@ graphicsMode:0
 ao:0
 biomeBlendRadius:2
 renderClouds:fast
-resourcePacks:["vanilla","mod_resources","file/Excalibur_V1.16.zip","file/[1.4.1] Enhanced Boss Bars.zip"]
+resourcePacks:["vanilla","mod_resources","file/[1.4.1] Enhanced Boss Bars.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -109,7 +109,7 @@ key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.keyboard.g
 key_key.dragon_down:key.keyboard.x
 key_key.dragon_change_view:key.keyboard.f7
-key_key.ftbchunks.map:key.keyboard.m
+key_key.ftbchunks.map:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
@@ -122,11 +122,11 @@ key_MPM 3:key.keyboard.unknown
 key_MPM 4:key.keyboard.unknown
 key_MPM 5:key.keyboard.unknown
 key_MPM Camera:key.keyboard.left.control
-key_placebo.toggleWings:key.keyboard.keypad.8
 key_neat.keybind.toggle:key.keyboard.unknown
-key_key.modernfix.config:key.keyboard.unknown
+key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
-key_key.buildinggadgets.settings_menu:key.keyboard.g
+key_key.modernfix.config:key.keyboard.unknown
+key_key.buildinggadgets.settings_menu:key.keyboard.end
 key_key.buildinggadgets.range:key.keyboard.r
 key_key.buildinggadgets.undo:key.keyboard.u
 key_key.buildinggadgets.anchor:key.keyboard.h
@@ -134,7 +134,6 @@ key_key.buildinggadgets.fuzzy:key.keyboard.unknown
 key_key.buildinggadgets.connected_area:key.keyboard.unknown
 key_key.buildinggadgets.rotate_mirror:key.keyboard.unknown
 key_key.buildinggadgets.material_list:key.keyboard.m
-key_key.curios.open.desc:key.keyboard.g
 key_key.relics.hud_up:key.keyboard.right.bracket
 key_key.relics.hud_down:key.keyboard.apostrophe
 key_key.relics.hud_first:key.keyboard.1:ALT
@@ -142,14 +141,15 @@ key_key.relics.hud_second:key.keyboard.2:ALT
 key_key.relics.hud_third:key.keyboard.3:ALT
 key_key.relics.hud_fourth:key.keyboard.4:ALT
 key_key.relics.hud_fifth:key.keyboard.5:ALT
+key_key.curios.open.desc:key.keyboard.g
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.toggle_focus.desc:key.keyboard.tab
-key_key.openManual:key.keyboard.f1
 key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
+key_key.openManual:key.keyboard.f1
+key_key.betterleveling.open_gui:key.keyboard.b
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
-key_key.betterleveling.open_gui:key.keyboard.b
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -228,7 +228,7 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.5149007
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

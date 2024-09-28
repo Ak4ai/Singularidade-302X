@@ -1,147 +1,117 @@
 {
   "betterdungeons:root": {
     "criteria": {
-      "always": "2024-08-28 22:01:00 -0300"
+      "always": "2024-09-27 03:56:11 -0300"
     },
     "done": true
   },
   "create:root": {
     "criteria": {
-      "0": "2024-08-28 22:00:05 -0300"
-    },
-    "done": true
-  },
-  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile_block": {
-    "criteria": {
-      "has_item": "2024-09-03 00:06:54 -0300"
+      "0": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "iceandfire:iceandfire/root": {
     "criteria": {
-      "tick": "2024-09-22 04:12:57 -0300"
+      "tick": "2024-09-27 03:56:11 -0300"
     },
     "done": true
   },
   "cataclysm:root": {
     "criteria": {
-      "custom_test_name": "2024-09-22 04:12:57 -0300"
+      "custom_test_name": "2024-09-27 03:56:11 -0300"
     },
     "done": true
   },
   "mcwfurnitures:recipes/dark_oak": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
+      "has_wood": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "obscure_api:recipes/obscure_book": {
     "criteria": {
-      "has_item": "2024-09-03 00:04:17 -0300"
+      "has_item": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "mcwfurnitures:recipes/oak": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
+      "has_wood": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "mcwfurnitures:recipes/jungle": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:03 -0300"
+      "has_wood": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "mcwfurnitures:recipes/acacia": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:04 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/warped": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:05 -0300"
+      "has_wood": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "tconstruct:tools/materials_and_you": {
     "criteria": {
-      "crafted_book": "2024-08-28 22:00:06 -0300"
+      "crafted_book": "2024-09-27 03:55:55 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/warped": {
+    "criteria": {
+      "has_wood": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "dungeons_arise:wda_root": {
     "criteria": {
-      "WDA": "2024-08-28 22:01:00 -0300"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/crimson": {
-    "criteria": {
-      "has_wood": "2024-08-28 22:00:02 -0300"
+      "WDA": "2024-09-27 03:56:11 -0300"
     },
     "done": true
   },
   "mcwfurnitures:recipes/spruce": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:04 -0300"
+      "has_wood": "2024-09-27 03:55:55 -0300"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "chaosawakens:root/root": {
     "criteria": {
-      "root": "2024-08-28 22:00:06 -0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2024-08-28 22:03:49 -0300"
+      "root": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "sorcerium:lvl_achievement": {
     "criteria": {
-      "lvl_achievement": "2024-09-03 00:04:58 -0300"
+      "lvl_achievement": "2024-09-27 03:56:11 -0300"
     },
     "done": true
   },
   "mcwfurnitures:recipes/birch": {
     "criteria": {
-      "has_wood": "2024-08-28 22:00:02 -0300"
-    },
-    "done": true
-  },
-  "valhelsia_structures:recipes/valhelsia_structures_main/bone_pile": {
-    "criteria": {
-      "has_item": "2024-09-03 00:06:54 -0300"
+      "has_wood": "2024-09-27 03:55:55 -0300"
     },
     "done": true
   },
   "occultism:occultism/root": {
     "criteria": {
-      "occultism_present": "2024-09-22 04:12:57 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2024-09-03 00:06:54 -0300"
+      "occultism_present": "2024-09-27 03:56:11 -0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga_hills": "2024-09-22 04:12:44 -0300"
+      "minecraft:plains": "2024-09-27 03:55:55 -0300"
     },
     "done": false
-  },
-  "create:recipes/decorations/smelting/glass_pane_from_horizontal_framed_glass_pane": {
-    "criteria": {
-      "has_item": "2024-09-03 00:05:58 -0300"
-    },
-    "done": true
   },
   "DataVersion": 2586
 }

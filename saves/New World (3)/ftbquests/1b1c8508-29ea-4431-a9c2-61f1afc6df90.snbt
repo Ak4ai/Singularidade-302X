@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "1b1c850829ea4431a9c261f1afc6df90"
+	name: "Ak4ai"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

@@ -18,7 +18,7 @@ biomeColorsVanillaMode:false
 waypoints:true
 renderArrow:true
 displayZoom:true
-worldmapWaypointsScale:1.0
+worldmapWaypointsScale:0.5
 openMapAnimation:true
 reloadVersion:0
 reloadEverything:false
@@ -36,7 +36,7 @@ renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true
 caveModeDepth:30
-caveModeStart:2147483647
+caveModeStart:143
 autoCaveMode:-1
 legibleCaveMaps:false
 displayCaveModeStart:true

@@ -1,10 +1,14 @@
-[12:21:47.324][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[12:21:47.748][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[22:36:05.395][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[22:36:05.800][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'appliedenergisticstweaker' at version '1.0.0.15'
 'crafttweaker' at version '7.1.2.527'
+'createautomated' at version '1.16.5-1.4.1a'
 'immersiveengineering' at version '1.16.5-5.1.0-148'
 'jeitweaker' at version '1.1.0.49'
+'lazierae2' at version '2.0.5'
 'tconstruct' at version '3.3.4.335'
-[12:21:48.073][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[12:21:59.854][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[12:22:00.361][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[22:36:06.401][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[22:36:27.116][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[22:36:27.733][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[22:37:45.227][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[22:37:45.327][DONE][CLIENT][INFO] Finished loading Scripts!
