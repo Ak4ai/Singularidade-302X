@@ -5,6 +5,7 @@
 #8F254F iammusicplayer:boombox
 #53756B minecraft:brick_slab
 #1BDBFB minecraft:brick_stairs
+#2C8002 steampowered:bronze_steam_engine
 #3AE802 minecraft:brown_mushroom_block
 #DA5887 rftoolsbuilder:builder
 #FC842A minecraft:campfire
@@ -45,6 +46,8 @@
 #7E2654 minecraft:sandstone
 #9D474B minecraft:sandstone_slab
 #38B5DB minecraft:sandstone_stairs
+#F9E521 armourers_workshop:skin-library-creative
+#B5D995 armourers_workshop:skin-library-global
 #70F44C minecraft:smooth_sandstone_stairs
 #3A9287 minecraft:smooth_stone
 #CB82F8 minecraft:smooth_stone_slab
